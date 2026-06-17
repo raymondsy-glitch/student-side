@@ -18,22 +18,24 @@ body.dark-mode .event-detail,
 body.dark-mode .form-container,
 body.dark-mode .profile-container,
 body.dark-mode .event-panel,
-body.dark-mode .action-panel,
-body.dark-mode .status-column{
+body.dark-mode .action-panel{
     background:#222;
     color:white;
 }
 
 
-body.dark-mode ,
+
+body.dark-mode,
 body.dark-mode .event-item,
 body.dark-mode .image-box,
 body.dark-mode .image-placeholder,
 body.dark-mode .upload-box,
-body.dark-mode .category-item{
+body.dark-mode .category-item,
+body.dark-mode .status-column{
     background:#333;
     color:white;
 }
+
 
 
 body.dark-mode input,
@@ -43,6 +45,8 @@ body.dark-mode select{
     color:white;
     border:none;
 }
+
+/* Drop down */
 
 body.dark-mode .dropdown-menu{
     background:#2d2d2d;
@@ -65,5 +69,29 @@ body.dark-mode .update-btn,
 body.dark-mode .approve-btn,
 body.dark-mode .back-btn{
     background:#666;
+    color:white;
+}
+
+/* Calendar */
+
+body.dark-mode .calendar-section{
+    background:#222;
+    color:white;
+}
+
+body.dark-mode .day-cell{
+    background:#333;
+    color:white;
+}
+
+body.dark-mode .day-header{
+    color:white;
+}
+body.dark-mode .day-header.sunday{
+    color:#ff6b6b;
+}
+
+body.dark-mode .legend{
+    background:#222;
     color:white;
 }
