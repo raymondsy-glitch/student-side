@@ -3,11 +3,13 @@ body.dark-mode{
     color:white;
 }
 
+/* Navigation */
 
 body.dark-mode .navbar{
     background:#1e1e1e;
 }
 
+/* Panels */
 
 body.dark-mode .banner,
 body.dark-mode .carousel-section,
@@ -16,14 +18,14 @@ body.dark-mode .event-detail,
 body.dark-mode .form-container,
 body.dark-mode .profile-container,
 body.dark-mode .event-panel,
-body.dark-mode .action-panel{
+body.dark-mode .action-panel,
+body.dark-mode .status-column{
     background:#222;
     color:white;
 }
 
 
-
-body.dark-mode .event-card,
+body.dark-mode ,
 body.dark-mode .event-item,
 body.dark-mode .image-box,
 body.dark-mode .image-placeholder,
@@ -34,7 +36,6 @@ body.dark-mode .category-item{
 }
 
 
-
 body.dark-mode input,
 body.dark-mode textarea,
 body.dark-mode select{
@@ -42,7 +43,6 @@ body.dark-mode select{
     color:white;
     border:none;
 }
-
 
 body.dark-mode .dropdown-menu{
     background:#2d2d2d;
